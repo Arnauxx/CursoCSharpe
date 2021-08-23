@@ -8,21 +8,20 @@ namespace CursoCSharpe
     {
         static void Main(string[] args)
         {
+            //Mains variables
             Order order = new Order 
             {
-
+                
                 Id = 1080,
                 Moment = DateTime.Now,
                 Status = OrderStatus.PendingPayment
-      
+
             };
-
-            Console.WriteLine(order);
-
             string txt = OrderStatus.PendingPayment.ToString();
-
             OrderStatus os = Enum.Parse<OrderStatus>("Delivered");
 
+            //Impressions
+            Console.WriteLine(order);
             Console.WriteLine(os);
             Console.WriteLine(txt);
         }

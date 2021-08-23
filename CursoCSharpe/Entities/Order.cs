@@ -21,7 +21,6 @@ namespace CursoCSharpe.Entities
                 + Moment
                 + " ,"
                 + Status;
-
                     
         }
     }
