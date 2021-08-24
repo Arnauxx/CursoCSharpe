@@ -8,6 +8,7 @@ namespace CursoCSharpe
     {
         static void Main(string[] args)
         {
+            /*
             //Mains variables
             Order order = new Order 
             {
@@ -24,6 +25,10 @@ namespace CursoCSharpe
             Console.WriteLine(order);
             Console.WriteLine(os);
             Console.WriteLine(txt);
+            */
+
+
+
         }
     }
 }
