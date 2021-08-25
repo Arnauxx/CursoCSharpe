@@ -1,6 +1,7 @@
 ﻿using System;
 using ExecPrepostoSectionNine.Entities;
 using ExecPrepostoSectionNine.Entities.Enums;
+using System.Globalization;
 
 namespace ExecPrepostoSectionNine
 {
@@ -21,7 +22,7 @@ namespace ExecPrepostoSectionNine
             Console.WriteLine("Enter order data:");
             Console.Write("Status: ");
             OrderStatus status = Enum.Parse<OrderStatus>(Console.ReadLine());
-            Console.WriteLine("How many items to this order? ");
+            Console.Write("How many items to this order? ");
             int totalItems = int.Parse(Console.ReadLine());
 
             Order order = new Order(DateTime.Now, status, client);
@@ -31,9 +32,9 @@ namespace ExecPrepostoSectionNine
                 Console.WriteLine($"Enter #{i} item data: ");
                 Console.Write("Product Name: ");
                 string productName = Console.ReadLine();
-                Console.WriteLine("Product price: ");
-                double productPrice = double.Parse(Console.ReadLine());
-                Console.WriteLine("Quantity: ");
+                Console.Write("Product price: ");
+                double productPrice = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                Console.Write("Quantity: ");
                 int qntd = int.Parse(Console.ReadLine());
 
                 
@@ -41,7 +42,12 @@ namespace ExecPrepostoSectionNine
                 OrderItem orderItem = new OrderItem(qntd, productPrice, product);
                 order.AddItem(orderItem);
             }
-            
+
+
+
+            Console.WriteLine("Order Summary:");
+            Console.WriteLine(order);
+
 
         }
     }

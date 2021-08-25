@@ -1,4 +1,7 @@
-﻿namespace ExecPrepostoSectionNine.Entities
+﻿using System.Text;
+using System.Globalization;
+
+namespace ExecPrepostoSectionNine.Entities
 {
     class OrderItem
     {
@@ -17,9 +20,28 @@
             Product = product;
         }
 
-        public void SubTotal()
+        public double SubTotal()
         {
-            Price *= Quantity ;
+            return Price * Quantity ;
         }
+
+        public override string ToString()
+        {
+
+                StringBuilder sb = new StringBuilder();
+                sb.Append($"{Product.Name}, {Price.ToString("F2", CultureInfo.InvariantCulture)}, ");
+                sb.AppendLine($"Quantity: {Quantity}, Subtotal: ${SubTotal().ToString("F2", CultureInfo.InvariantCulture)}");
+
+                
+
+            
+
+            return sb.ToString();
+
+
+        }
+
+
+
     }
 }
