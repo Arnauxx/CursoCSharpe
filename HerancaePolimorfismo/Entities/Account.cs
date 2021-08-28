@@ -20,7 +20,7 @@
 
         public virtual void Withdraw(double amount)
         {
-            Balance -= amount + 5;
+            Balance -= amount + 5.0;
         }
 
         public void Deposit(double amount)

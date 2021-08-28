@@ -29,7 +29,7 @@ namespace HerancaePolimorfismo.Entities
         public sealed override void Withdraw(double amount)
         {
             base.Withdraw(amount);//Consegue usar a Super classe e adicionar outras condições
-            Balance -= 2.0;
+            Balance -= 2.0; 
         }
 
     }
