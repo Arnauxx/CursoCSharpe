@@ -1,5 +1,7 @@
-﻿using System;
-using HerancaePolimorfismo.Entities;
+﻿using HerancaePolimorfismo.Entities;
+using System.Collections.Generic;
+using System;
+using System.Globalization;
 
 namespace HerancaePolimorfismo
 {
@@ -40,16 +42,41 @@ namespace HerancaePolimorfismo
                 acc5.UpdateBalance();
                 Console.WriteLine("Update!");
             }
+            
             */
 
-            Account acc1 = new Account(1001, "Alex", 500.00);
-            Account acc2 = new SavingsAccount(1002, "Ana", 500.00, 0.01);
 
-            acc1.Withdraw(10.0);
-            acc2.Withdraw(10.0);
+            List<Account> list = new List<Account>();
 
-            Console.WriteLine("Conta corrente: " + acc1.Balance);
-            Console.WriteLine("Conta poupança: " + acc2.Balance);
+            list.Add(new SavingsAccount(1001, "Alex", 500.00, 0.01));
+            list.Add(new BusinessAccount(1002, "Maria", 500.00, 400.0));
+            list.Add(new SavingsAccount(1003, "Bob", 500.00, 0.01));
+            list.Add(new BusinessAccount(1004, "Anna", 500.00, 500.00));
+
+            double sum = 0.0;
+            foreach(Account acc in list)
+            {
+                sum += acc.Balance;
+
+            }
+
+            Console.WriteLine("Total accounts: " + sum.ToString("F2", CultureInfo.InvariantCulture));
+
+
+            foreach(Account acc in list)
+            {
+                acc.Withdraw(10.0);
+            }
+
+            foreach(Account acc in list)
+            {
+                Console.WriteLine(
+                    "Update total balance accounts" + 
+                    acc.Number +
+                    ": " +
+                    acc.Balance.ToString("F2", CultureInfo.InvariantCulture)
+                    );
+            }
 
         }
     }

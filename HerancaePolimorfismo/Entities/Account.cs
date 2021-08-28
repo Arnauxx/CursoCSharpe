@@ -1,6 +1,6 @@
 ﻿namespace HerancaePolimorfismo.Entities
 {
-    class Account
+    abstract class Account
     {
         public int Number { get; private set; }
         public string Holder { get; private set; }//Só pode ser alterado pela classe
