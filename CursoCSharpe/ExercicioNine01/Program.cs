@@ -28,7 +28,7 @@ namespace CursoCSharpe
             Console.WriteLine(os);
             Console.WriteLine(txt);
             */
-
+            /*
             Console.Write("Digite o nome do Departamento: ");
             string deptName = Console.ReadLine();
             Console.WriteLine("Digite as informações do trabalho: ");
@@ -71,9 +71,19 @@ namespace CursoCSharpe
                 Console.WriteLine($"Income for {monthAndYear}: {worker.Income(year, month).ToString("F2", CultureInfo.InvariantCulture)} ");
 
 
-            }
 
+
+
+
+        }
             
+            */
+
+
+            for(int i = 1; i >= 11; i++)
+            {
+                Console.WriteLine(i);
+            }
 
 
 
