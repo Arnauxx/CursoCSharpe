@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arquivos", "Arquivos\Arquiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecPropostoSectionEleven", "ExecPropostoSectionEleven\ExecPropostoSectionEleven.csproj", "{0170FB09-28AB-4DA9-822F-F51DEDBA315D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{8392827D-0029-47FD-B4E1-3FAA81001682}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{0170FB09-28AB-4DA9-822F-F51DEDBA315D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0170FB09-28AB-4DA9-822F-F51DEDBA315D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0170FB09-28AB-4DA9-822F-F51DEDBA315D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8392827D-0029-47FD-B4E1-3FAA81001682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8392827D-0029-47FD-B4E1-3FAA81001682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8392827D-0029-47FD-B4E1-3FAA81001682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8392827D-0029-47FD-B4E1-3FAA81001682}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
