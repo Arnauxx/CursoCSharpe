@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecPropostoExcecoes", "Exe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arquivos", "Arquivos\Arquivos.csproj", "{BA46B2CA-9FA1-4209-A66C-F39F8AB566C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecPropostoSectionEleven", "ExecPropostoSectionEleven\ExecPropostoSectionEleven.csproj", "{0170FB09-28AB-4DA9-822F-F51DEDBA315D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecPropostoSectionEleven", "ExecPropostoSectionEleven\ExecPropostoSectionEleven.csproj", "{0170FB09-28AB-4DA9-822F-F51DEDBA315D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{8392827D-0029-47FD-B4E1-3FAA81001682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{8392827D-0029-47FD-B4E1-3FAA81001682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecInterfaces", "ExecInterfaces\ExecInterfaces.csproj", "{D3DE93AE-28AF-4712-A0EB-BD8F28855D3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{8392827D-0029-47FD-B4E1-3FAA81001682}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8392827D-0029-47FD-B4E1-3FAA81001682}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8392827D-0029-47FD-B4E1-3FAA81001682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3DE93AE-28AF-4712-A0EB-BD8F28855D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DE93AE-28AF-4712-A0EB-BD8F28855D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DE93AE-28AF-4712-A0EB-BD8F28855D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DE93AE-28AF-4712-A0EB-BD8F28855D3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
