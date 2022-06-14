@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecPropostoConj", "ExecPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary_SortedDictionary", "Dictionary_SortedDictionary\Dictionary_SortedDictionary.csproj", "{261F02D7-7AC1-4E4A-B093-40BFA85517BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercProposto_15", "ExercProposto_15\ExercProposto_15.csproj", "{4EB1B0EC-9A62-4218-A5B4-1E7435425DC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{261F02D7-7AC1-4E4A-B093-40BFA85517BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{261F02D7-7AC1-4E4A-B093-40BFA85517BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{261F02D7-7AC1-4E4A-B093-40BFA85517BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB1B0EC-9A62-4218-A5B4-1E7435425DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB1B0EC-9A62-4218-A5B4-1E7435425DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB1B0EC-9A62-4218-A5B4-1E7435425DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB1B0EC-9A62-4218-A5B4-1E7435425DC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
