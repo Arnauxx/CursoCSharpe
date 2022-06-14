@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecConj", "ExecConj\ExecCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecPropostoConj", "ExecPropostoConj\ExecPropostoConj.csproj", "{DEC6B32C-6C06-4F29-A349-ED8C88DEA251}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary_SortedDictionary", "Dictionary_SortedDictionary\Dictionary_SortedDictionary.csproj", "{261F02D7-7AC1-4E4A-B093-40BFA85517BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{DEC6B32C-6C06-4F29-A349-ED8C88DEA251}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEC6B32C-6C06-4F29-A349-ED8C88DEA251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEC6B32C-6C06-4F29-A349-ED8C88DEA251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261F02D7-7AC1-4E4A-B093-40BFA85517BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261F02D7-7AC1-4E4A-B093-40BFA85517BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261F02D7-7AC1-4E4A-B093-40BFA85517BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261F02D7-7AC1-4E4A-B093-40BFA85517BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
