@@ -57,7 +57,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercProposto_15", "ExercPr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_Extension_Methods", "16_Extension_Methods\16_Extension_Methods.csproj", "{D17B3C12-BE5A-42AF-AE48-CF3771511789}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Predicate", "Predicate\Predicate.csproj", "{11F49E42-3F9C-4FF0-8650-B38485358BC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Predicate", "Predicate\Predicate.csproj", "{11F49E42-3F9C-4FF0-8650-B38485358BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Func_Select", "Func_Select\Func_Select.csproj", "{BBB90D8D-641D-492B-AAB7-5BABC87CDA01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{11F49E42-3F9C-4FF0-8650-B38485358BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F49E42-3F9C-4FF0-8650-B38485358BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11F49E42-3F9C-4FF0-8650-B38485358BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB90D8D-641D-492B-AAB7-5BABC87CDA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB90D8D-641D-492B-AAB7-5BABC87CDA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB90D8D-641D-492B-AAB7-5BABC87CDA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB90D8D-641D-492B-AAB7-5BABC87CDA01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
