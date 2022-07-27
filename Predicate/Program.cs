@@ -17,18 +17,32 @@ namespace Predicate
             list.Add(new Products("Tablet", 350.50));
             list.Add(new Products("HD Case", 80.90));
 
-            list.RemoveAll(ProductTest);
+            //Action<Products> act = p => { p.Price += p.Price * 0.1; };
 
+            list.ForEach(p => { p.Price += p.Price * 0.1; });
             foreach(Products p in list)
             {
                 Console.WriteLine(p);
             }
 
+            //list.RemoveAll(ProductTest);
+
+        //    foreach(Products p in list)
+        //    {
+        //        Console.WriteLine(p);
+        //    }
+
         }
 
-        public static bool ProductTest(Products p)
-        {
-            return p.Price >= 100;
-        }
+        //public static bool ProductTest(Products p)
+        //{
+        //    return p.Price >= 100;
+        //}
+
+        //static void UpdatePrice(Products p)
+        //{
+        //    p.Price += p.Price * 0.1;
+        //}
+
     }
 }
