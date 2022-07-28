@@ -61,6 +61,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Predicate", "Predicate\Pred
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Func_Select", "Func_Select\Func_Select.csproj", "{BBB90D8D-641D-492B-AAB7-5BABC87CDA01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{5F79D2AF-387A-4853-9044-4D395F6FE326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{BBB90D8D-641D-492B-AAB7-5BABC87CDA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBB90D8D-641D-492B-AAB7-5BABC87CDA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBB90D8D-641D-492B-AAB7-5BABC87CDA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F79D2AF-387A-4853-9044-4D395F6FE326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F79D2AF-387A-4853-9044-4D395F6FE326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F79D2AF-387A-4853-9044-4D395F6FE326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F79D2AF-387A-4853-9044-4D395F6FE326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
