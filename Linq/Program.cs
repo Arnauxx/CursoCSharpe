@@ -17,7 +17,7 @@ namespace Linq
                 .Where(x => x % 2 == 0)
                 .Select(x => x * 10);
 
-            //Execute the query
+            //Execute the querys
             foreach(int x in result)
             {
                 Console.WriteLine(x);
