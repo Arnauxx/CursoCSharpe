@@ -74,17 +74,58 @@ namespace Linq_Lambda
             Console.WriteLine("First or Default test1: " + r6);
             Console.WriteLine();
 
-            var r7 = products.Where(p => p.Price > 3000.0).FirstOrDefault();
+            var r7 = products.Where(p => p.Price > 3000.0)
+                .FirstOrDefault();
             Console.WriteLine("First or Default test 2: " + r7);
             Console.WriteLine();
 
-            var r8 = products.Where(p => p.Id == 3).SingleOrDefault();
+            var r8 = products.Where(p => p.Id == 3)
+                .SingleOrDefault();
             Console.WriteLine("Single or Default test 1: " + r8);
             Console.WriteLine();
 
-            var r9 = products.Where(p => p.Id == 30).SingleOrDefault();
+            var r9 = products.Where(p => p.Id == 30)
+                .SingleOrDefault();
             Console.WriteLine("Single or Default test 2: " + r9);
             Console.WriteLine();
+
+            var r10 = products.Max(p => p.Price);
+            Console.WriteLine("MAX PRICE: " + r10);
+            Console.WriteLine();
+
+            var r11 = products.Min(p => p.Price);
+            Console.WriteLine("MIN PRICE: " + r11);
+            Console.WriteLine();
+
+            var r12 = products.Where(p => p.Category.Id == 1).Sum(p => p.Price);
+            Console.WriteLine("Category 1 sum prices: " + r12);
+            Console.WriteLine();
+
+            var r13 = products.Where(p => p.Category.Id == 1)
+                .Average(p => p.Price);
+            Console.WriteLine("Category 1 Average prices: " + r13);
+            Console.WriteLine();
+
+            var r14 = products.Where(p => p.Category.Id == 5)
+                .Select(p => p.Price)
+                .DefaultIfEmpty(0.0)
+                .Average();
+            Console.WriteLine("Category 1 Average prices: " + r14);
+            Console.WriteLine();
+
+            var r15 = products.Where(p => p.Category.Id == 1).Select(p => p.Price).Aggregate(0.0, (x, y) => x + y);
+            Console.WriteLine("Category 1 aggregate sum: " + r15);
+
+            var r16 = products.GroupBy(p => p.Category);
+            foreach(IGrouping<Category, Product> group in r16)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Category " + group.Key.Name + ": ");
+                foreach(Product p in group)
+                {
+                    Console.WriteLine(p);
+                }
+            }
 
         }
     }
